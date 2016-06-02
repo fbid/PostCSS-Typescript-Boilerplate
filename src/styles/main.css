@@ -1,0 +1,27 @@
+$blue: #4449be;
+
+h3{
+  color: $blue;
+}
+
+
+section{
+  lost-center: 960px;
+
+  > div{
+    lost-column:1/4;
+    transition: all .4s ease-in-out;
+
+    &:hover{
+      background:#333;
+      color:$blue;
+    }
+  }
+
+}
+
+*{
+  box-sizing:border-box;
+  margin:0;
+  padding:0;
+}
